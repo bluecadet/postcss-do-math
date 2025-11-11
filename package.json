@@ -1,0 +1,46 @@
+{
+  "name": "@bluecadet/postcss-do-math",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to do math with mathjs",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "unit": "node --test index.test.js",
+    "test": "npm run unit && eslint .",
+    "dev": "tsc --watch --declarationMap --sourceMap",
+    "build": "tsc"
+  },
+  "author": "Shaun M Baer <shaun.baer@gmail.com>",
+  "license": "MIT",
+  "repository": "baerkins/postcss-mathjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.27"
+  },
+  "devDependencies": {
+    "@types/mathjs": "^9.4.1",
+    "@types/node": "^24.10.0",
+    "eslint": "^8.47.0",
+    "postcss": "^8.5.6",
+    "typescript": "^5.9.3"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  },
+  "dependencies": {
+    "mathjs": "^15.1.0"
+  }
+}
