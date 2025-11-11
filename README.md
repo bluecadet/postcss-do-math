@@ -2,6 +2,14 @@
 
 **WIP - TESTING ONLY**
 
+## In your postcss config:
+
+```js
+'postcss': {
+  basePixelSize: 16, // optional
+}
+```
+
 ## In your CSS:
 
 ```css
