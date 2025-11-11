@@ -12,9 +12,9 @@
     "dev": "tsc --watch --declarationMap --sourceMap",
     "build": "tsc"
   },
-  "author": "Shaun M Baer <shaun.baer@gmail.com>",
+  "author": "Shaun M Baer <shaun@bluecadet.com>",
   "license": "MIT",
-  "repository": "baerkins/postcss-mathjs",
+  "repository": "bluecadet/postcss-do-math",
   "engines": {
     "node": ">=18.0.0"
   },
